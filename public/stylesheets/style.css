@@ -1,0 +1,90 @@
+/* Configuraciones generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+svg,
+button {
+    transition: ease 0.33s;
+}
+
+/* header styles */
+.imagen-perfil {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.nav-link:hover {
+    color: darkorange;
+}
+
+.nav-link svg:hover {
+    fill: darkorange;
+}
+
+/* footer styles */
+footer h2 {
+    color: darkorange;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: darkorange;
+}
+
+footer svg:hover {
+    transform: translateY(3px);
+    fill: darkorange;
+}
+
+/* Estilos para Perfil */
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para tarjetas productos */
+.product-card {
+    transition: 0.25s ease;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.product-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* LOGOTIPO */
+.navbar-brand, .gradiente {
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-size: 18px;
+}
+
+.gradiente {
+    background: linear-gradient(45deg, orange, red);
+    color: transparent;
+    background-clip: text;
+}

@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+svg,
+button {
+  transition: ease 0.33s;
+}
+
+/* header styles */
+.imagen-perfil {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0px;
+  position: relative;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #e3e3e7;
+  width: 100%;
+  height: 25px;
+}
+
+.navbar .logo {
+  width: 200px;
+  height: 57.56px;
+  cursor: pointer;
+  padding-left: 30px;
+}
+
+.navbar .buttons-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 12px;
+  height: 20px;
+}
+
+.navbar .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+  height: 20px;
+  align-items: center;
+  padding: 20px 30px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 13.15px;
+  box-shadow: var(--sombra);
+  cursor: pointer;
+}
+
+.navbar .text-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Outfit-Medium", Helvetica;
+  color: #00000080;
+  font-size: 23.7px;
+  line-height: 23.7px;
+  font-weight: 500;
+  letter-spacing: 0;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.navbar .data {
+  display: inline-flex;
+  height: 30px;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  padding-right: 20px;
+
+}
+
+.navbar .frame {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 300px 80px;
+  position: relative;
+  background-color: #ffffff;
+  justify-content: flex-end;
+}
+
+.footer .div {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.footer .logo {
+  position: relative;
+  width: 164px;
+  height: 50px;
+}
+
+.footer .social-icons {
+  display: flex;
+  width: 188px;
+  height: 54px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  position: relative;
+}
+
+.footer .button-2 {
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: -5.00px;
+  margin-bottom: -5.00px;
+  background-color: #d5948980;
+  display: inline-flex;
+  gap: 10px;
+  flex: 0 0 auto;
+  border-radius: 12px;
+}
+
+.footer .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Outfit-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: -0.11px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.footer .group-3 {
+  position: relative;
+  width: 25.91px;
+  height: 25.91px;
+  margin-top: -0.95px;
+  margin-bottom: -0.95px;
+  margin-right: -0.95px;
+}
+
+.footer .text-2 {
+  width: auto;
+  font-family: "Outfit-Regular", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  line-height: 24px;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: -0.11px;
+}
+
+/* Estilos para Perfil */
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Estilos para tarjetas productos */
+.product-card {
+  transition: 0.25s ease;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.product-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* LOGOTIPO */
+.navbar-brand,
+.gradiente {
+  font-weight: 700;
+  letter-spacing: .1rem;
+  font-size: 18px;
+}
+
+.gradiente {
+  background: linear-gradient(45deg, orange, red);
+  color: transparent;
+  background-clip: text;
+}

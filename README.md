@@ -21,3 +21,11 @@ Considero que estos sitios cubren los aspectos básicos de una tienda virtual.
 - Logo
 - Paleta de colores: #060606, #FEFEFE, #060606 50% , #E4E4E4 , #D59489 50% , #D59489, #F7F7F8, #A0A0A0
 - Tipografías: roboto, open sans.
+
+# SPRINT 2 
+# Tablero de trabajo 
+https://github.com/users/faculope20/projects/1
+
+# SPRINT 3 
+# Tablero de trabajo 
+https://github.com/users/faculope20/projects/2
