@@ -41,3 +41,11 @@ https://github.com/users/faculope20/projects/4
 # SPRINT 6 
 # Tablero de trabajo 
 https://github.com/users/faculope20/projects/5
+
+# SPRINT 7 
+# Tablero de trabajo 
+https://github.com/users/faculope20/projects/6
+
+# SPRINT 8
+# Tablero de trabajo 
+https://github.com/users/faculope20/projects/7
