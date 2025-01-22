@@ -1,4 +1,16 @@
+Instalar dependencias:
+npm install
+Crear base de datos y poblar las tablas con datos.
+node src/database/config/syncDatabase.js
+npx sequelize-cli db:seed:all
 
+
+Ejecutar Back-end:
+nodemon
+Ejecutar Front-end usando otra instancia de la consola de comandos del sistema operativo:
+cd dashboard
+npm install vite --save-dev
+npm run dev
 # SPRINT 1
 ## Temática del sitio y Público objetivo
 ### __Temática__
@@ -49,3 +61,5 @@ https://github.com/users/faculope20/projects/6
 # SPRINT 8
 # Tablero de trabajo 
 https://github.com/users/faculope20/projects/7
+
+Nota 2: Contraseñas de usuarios Los usuarios creados por script inician sesión con la siguiente contraseña: 123
